@@ -70,8 +70,4 @@ files.filter(file => file.endsWith(".js")).forEach(file => {
 });
 });
 
-client.sayilariCevir = function(x) {
-return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-};
-
 client.login(ayarlar.token);
