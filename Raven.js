@@ -2,7 +2,6 @@ const { Discord, MessageEmbed, Client } = require('discord.js');
 const client = global.client = new Client({fetchAllMembers: true});
 const ayarlar = require("./ayarlar.json");
 const http = require("http");
-const ayar = require("./raven.json");
 const express = require("express");
 const queue = new Map();
 const moment = require("moment");
